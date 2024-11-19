@@ -5,22 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Shivani </title>
     <style>
+        * {
+            margin: 0px;
+        }
         .container {
             background-color: silver;
+            margin: 0px;
         }
         .row {
             background-color: pink;
+            display: flex;
+            justify-content: space-between;
+        }
+        .row1 {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            height: 300px;
+            align-items: center;
         }
         .box {
-            background-color: yellow;
+            padding: 10px;
         }
     </style>
 </head>
 <body>
-    <div>
-        <div>
-            <div> Shivani Thota </div>
-            <div> <a href="#"> Home </a> | <a href="#"> Projects </a> </div>
+    <div class="container">
+        <div class="row">
+            <div class="box"> <h1> Shivani Thota </h1> </div>
+            <div class="box"> 
+                <a href="#"> Home </a> | 
+                <a href="#"> Projects </a> | 
+                <a href="#"> About </a> | 
+                <a href="#"> Services </a> | 
+                <a href="#"> Contact </a> 
+            </div>
+        </div>
+        <div class="row1">
+            <div> 
+                <h1> Shivani Thota </h1> 
+                <h3> Full Stack Developer </h3></div>
+            <div> <img src = "https://picsum.photos/id/257/300/300"> </div>
         </div>
     </div>
     <!-- <h1> Shivani Thota </h1>
