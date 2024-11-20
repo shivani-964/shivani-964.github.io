@@ -35,8 +35,61 @@
             height: 100vh;
             align-items: center;
         }
+        .row3 {
+            display: flex;
+            background-color: rgb(230, 229, 173);
+            justify-content: space-around;
+            padding: 20px;
+            height: 100vh;
+            align-items: center;
+        }
+        .row4 {
+            display: flex;
+            background-color: rgb(173, 230, 189);
+            justify-content: space-around;
+            padding: 20px;
+            height: 100vh;
+            align-items: center;
+        }
+        .row5 {
+            display: flex;
+            background-color: lightslategray;
+            justify-content: space-around;
+            padding: 20px;
+            height: 100vh;
+            align-items: center;
+        }
+        .footer {
+            display: flex;
+            background-color: rgb(153, 128, 119);
+            justify-content: space-around;
+            padding: 20px;
+            height: 100vh;
+            align-items: center;
+        }
         .box {
             padding: 10px;
+        }
+        .box1 {
+            padding: 20px;
+            background-color: white;
+            color: black;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        li {
+            display: inline;
+            padding: 5px;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover {
+            background-color: aquamarine;
+            text-decoration: underline;
+        }
+        .imgclass {
+            border-radius: 1000px;
         }
     </style>
 </head>
@@ -45,18 +98,20 @@
         <div class="row">
             <div class="box"> <h1> Shivani Thota </h1> </div>
             <div class="box"> 
-                <a href="#Home"> Home </a> | 
-                <a href="#Projects"> Projects </a> | 
-                <a href="#About"> About </a> | 
-                <a href="#Services"> Services </a> | 
-                <a href="#Contact"> Contact </a> 
+                <ul>
+                    <li> <a href="#Home"> Home </a> </li> | 
+                    <li> <a href="#Projects"> Projects </a> </li> | 
+                    <li> <a href="#About"> About </a> </li> | 
+                    <li> <a href="#Services"> Services </a> </li> | 
+                    <li> <a href="#Contact"> Contact </a> </li> 
+                </ul>
             </div>
         </div>
         <div class="row1" id="Home">
             <div> 
                 <h1> Shivani Thota </h1> 
                 <h3> Full Stack Developer </h3></div>
-            <div> <img src = "https://picsum.photos/id/257/300/300"> </div>
+            <div> <img class="imgclass" src = "https://picsum.photos/id/257/300/300"> </div>
         </div>
         <div class="row2" id="Projects">
             <div> 
@@ -67,6 +122,56 @@
                 </ol>
             </div>
         </div>
+        <div class="row3" id="About">
+            <div>
+                <h1> About </h1>
+                <h3> Iam Shivani Thota - Btech Final Year - Mahindra University </h3>
+            </div>
+        </div>
+        <div class="row4" id="Services">
+            <div>
+                <h1> Services </h1>
+            </div> 
+            <div class="box1"> 
+                <h3> Web Application Development </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dicta eos facilis blanditiis harum obcaecati minima, 
+                    aut tempora laudantium inventore, a ipsum iure ex deleniti, 
+                    asperiores saepe expedita possimus minus? Tenetur.
+                </p>
+            </div>
+            <div class="box1"> 
+                <h3> Mobile Application Development </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Laborum est similique laboriosam maxime! Reiciendis quo 
+                    officia quos veniam ex vitae eaque odio similique voluptatibus 
+                    sed accusamus, nam distinctio explicabo quaerat.
+                </p>
+            </div>
+            <div class="box1">
+                <h3> Backend Development </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Eligendi, soluta? Voluptate cupiditate ducimus, molestiae 
+                    quis inventore quibusdam! Hic nesciunt, sequi veniam dignissimos 
+                    mollitia nihil ipsum id alias aliquam, voluptates aperiam.
+                </p>
+            </div>
+        </div>
+        <div class="row5" id="Contact">
+            <div> 
+                <h1> Contact </h1>
+            <ol>
+                <li>Phone: 1234567890</li>
+                <li>Email: abc@gmail.com</li>
+            </ol>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h3> @copyright 2024. All rights are reserved </h3>
     </div>
     <!-- <h1> Shivani Thota </h1>
     <a href = ""> Home </a>
