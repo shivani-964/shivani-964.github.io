@@ -56,7 +56,7 @@ a:hover {
 }
 
 .row1 {
-    background: linear-gradient(to bottom, #fff1eb, #ace0f9);
+    background: linear-gradient(to bottom, #fff1eb, #b4d99c);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,7 +101,7 @@ a:hover {
 }
 
 .row2 {
-    background: linear-gradient(to right, #d9a7c7, #fffcdc);
+    background: linear-gradient(to right, #a7d9d5, #fffcdc);
     display: flex;
     flex-direction: column;
     justify-content: center;
